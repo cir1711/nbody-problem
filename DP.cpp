@@ -61,10 +61,10 @@ void n_body_2d::__DP(double er_rel, double er_abs)
   FILE* data2;
   FILE* data3;
   FILE* data4;
-  data1 = fopen("posiciones_DP.dat","w");
-  data2 = fopen("velocidades_DP.dat","w");
-  data3 = fopen("tiempo_DP.dat","w");
-  data4 = fopen("energias_DP.dat","w");
+  data1 = fopen("results/posiciones_DP.dat","w");
+  data2 = fopen("results/velocidades_DP.dat","w");
+  data3 = fopen("results/tiempo_DP.dat","w");
+  data4 = fopen("results/energias_DP.dat","w");
 
   fprintf(data3,"%f \n", 0.0);
 

@@ -67,10 +67,10 @@ void n_body_2d::__RK_4()
   FILE* data2;
   FILE* data3;
   FILE* data4;
-  data1 = fopen("posiciones_RK.dat","w");
-  data2 = fopen("velocidades_RK.dat","w");
-  data3 = fopen("tiempo_RK.dat","w");
-  data4 = fopen("energias_RK.dat","w");
+  data1 = fopen("results/posiciones_RK.dat","w");
+  data2 = fopen("results/velocidades_RK.dat","w");
+  data3 = fopen("results/tiempo_RK.dat","w");
+  data4 = fopen("results/energias_RK.dat","w");
 
   fprintf(data3,"%f \n", 0.0);
   
